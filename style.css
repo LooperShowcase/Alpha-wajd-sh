@@ -1,0 +1,130 @@
+h1 {
+    color: blue;
+    font-family: "Fira Sans", sans-serif;
+}
+
+h2 {
+    color: lightblue;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td {
+    color: rgb(233, 233, 240);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+tr{color: gray;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .container{
+    
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      
+  }
+
+  .message-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  .message-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .message-container input[type="text"],
+  .message-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  .send-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: font-size 0.3s ease; /* Smooth transition for font size change */
+  }
+  .send-button:hover {
+    font-size: 14px; /* Smaller font size on hover */
+  }
+  h2 { color: black;}
+
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .login-container button:hover {
+    background-color: #45a049; /* Darker Green */
+  }
+  
